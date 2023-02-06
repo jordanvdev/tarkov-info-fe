@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.itemBox{
+  width: 100px;
+  height: 50px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
