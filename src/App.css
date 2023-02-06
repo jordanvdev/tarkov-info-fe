@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  z-index: 100;
 }
 
 .App-logo {
@@ -26,14 +27,6 @@
 
 .App-link {
   color: #61dafb;
-}
-
-.itemBox{
-  width: 100px;
-  height: 50px;
-  border: 2px;
-  border-style: solid;
-  border-color: black;
 }
 
 @keyframes App-logo-spin {
