@@ -3,6 +3,12 @@
   z-index: 100;
 }
 
+ul{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +18,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+h1{
+  color: #6200ee;
 }
 
 .App-header {

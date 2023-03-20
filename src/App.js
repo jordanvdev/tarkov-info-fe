@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div className="App">
+    
       <h1>Tarkov Info</h1>
 
       <InputBox query={query} updateQuery={setQuery} setItems={setItems}/>

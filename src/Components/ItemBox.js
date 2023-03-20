@@ -8,7 +8,7 @@ export const ItemBox = (props) => {
       <div className="itemBox">
         {props.item.Name}
         <button onClick={() => setOpen(true)}> View More </button>
-        <ItemInfoModal isOpen={open} onClose = {() => setOpen(false)}/>
+        <ItemInfoModal isOpen={open} onClose = {() => setOpen(false)} selectedItem={props.item}/>
     </div>
     )
   }
