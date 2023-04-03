@@ -10,7 +10,7 @@ export class Ammo{
     AmmoType;
     ProjectileCount;
     ArmorDamage;
-    FragmentationChange;
+    FragmentationChance;
     RicochetChance;
     PenetrationChance;
     PenetrationPower;
@@ -30,7 +30,7 @@ export class Ammo{
         this.AmmoType = ammotype;
         this.ProjectileCount = projcount;
         this.ArmorDamage = armordamage;
-        this.FragmentationChange = fragchance;
+        this.FragmentationChance = fragchance;
         this.RicochetChance = ricochance;
         this.PenetrationChance = penchance;
         this.PenetrationPower = penpower;
