@@ -6,7 +6,7 @@ import './ItemBox.css'
 import React, {useState} from 'react';
 
 export const InputBox = (props) => {
-    const [searchType, setSearchType] = useState("");
+    const [searchType, setSearchType] = useState("ammo");
 
     const _onKeyDown = (event) => {
       if(event.key === "Enter"){
@@ -40,6 +40,5 @@ export const InputBox = (props) => {
             </select>
             <ToastContainer />
         </div>
-    
     )
   }

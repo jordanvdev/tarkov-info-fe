@@ -1,4 +1,4 @@
-import { ItemInfoModal } from "./Modals/ItemInfo"
+import { AmmoInfoModal } from "./Modals/AmmoModal"
 import { useState } from "react";
 
 export const ItemBox = (props) => {
@@ -8,7 +8,7 @@ export const ItemBox = (props) => {
       <div className="itemBox">
         {props.item.Name}
         <button onClick={() => setOpen(true)}> View More </button>
-        <ItemInfoModal isOpen={open} onClose = {() => setOpen(false)} selectedItem={props.item}/>
+        <AmmoInfoModal isOpen={open} onClose = {() => setOpen(false)} selectedItem={props.item}/>
     </div>
     )
   }

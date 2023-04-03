@@ -1,0 +1,60 @@
+.itemModal{
+    background-color: #3700b3;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    color: #fff;
+    display: block;
+    padding: 1.25rem;
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    top: 12%; 
+    width: 40%;
+    backdrop-filter: blur(8px);
+}
+
+.closeButton{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2997/2997911.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 20px;
+    background-color: #3700b3;
+    background-blend-mode: multiply;
+    position:absolute; 
+    border: none;
+    height: 20px;
+    width: 20px;
+    top:10px; 
+    right:10px;
+}
+
+.closeButton span{
+    display: none;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+hr{
+    padding: 0px;
+    margin: 0px;    
+}
+
+.ammoContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.ammoInfo{
+    width: 45%;
+}
+
+.ballisticsInfo{
+    width: 45%;
+}
