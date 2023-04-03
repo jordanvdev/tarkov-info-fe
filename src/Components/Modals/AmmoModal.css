@@ -11,8 +11,8 @@
     margin-left: auto;
     margin-right: auto;
     height: 30%;
-    top: 15%; /* push down by 50% of the height of the container */
-    width: 30%;
+    top: 12%; 
+    width: 40%;
     backdrop-filter: blur(8px);
 }
 
@@ -20,4 +20,28 @@
     position:absolute; 
     top:10px; 
     right:10px;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+hr{
+    padding: 0px;
+    margin: 0px;    
+}
+
+.ammoContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.ammoInfo{
+    width: 45%;
+}
+
+.ballisticsInfo{
+    width: 45%;
 }

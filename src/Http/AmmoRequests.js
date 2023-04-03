@@ -6,7 +6,9 @@ export const getAmmoByName = (props) => {
       .then(
         (result) => {
           result.forEach(element => {
-            var ammo = new Ammo(element.id,element.name, element.caliber, element.damage);
+            var ammo = new Ammo(element.id,element.name, element.caliber, element.damage, element.weight, element.stackMaxSize, element.tracer, element.tracerColor, element.ammoType,
+              element.projectileCount, element.armorDamage, element.fragmentationChance, element.ricochetChance, element.penetrationChance, element.penetrationPower,
+              element.accuracy, element.recoil, element.initialSpeed);
             props.setItems(oldItems => [...oldItems, ammo]);
           });
         },

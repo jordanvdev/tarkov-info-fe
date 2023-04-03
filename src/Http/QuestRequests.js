@@ -1,7 +1,7 @@
 import { Quest } from "../Model/Quest";
 
 export const getQuestsByName = (props) => {
-    fetch("http://localhost:51572/api/v1/quest/" + props.name)
+    fetch("http://localhost:51572/api/v1/quests/" + props.name)
       .then(res => res.json())
       .then(
         (result) => {
