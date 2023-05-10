@@ -1,7 +1,8 @@
 import { AmmoInfoModal } from "./Modals/AmmoModal"
 import { useState } from "react";
+import './AmmoResult.css'
 
-export const ItemBox = (props) => {
+export const AmmoResult = (props) => {
     const [open, setOpen] = useState(false);
 
     return (

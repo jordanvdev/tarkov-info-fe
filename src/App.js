@@ -1,7 +1,8 @@
 import './App.css';
 import React, {useState} from 'react';
-import {InputBox} from './Components/InputBox'
-import { ItemBox } from './Components/ItemBox';
+import { AmmoResult } from './Components/AmmoResult';
+import { InputBox } from './Components/InputBox';
+import { QuestResult } from './Components/QuestResult';
 
 function App() {
 
@@ -17,7 +18,10 @@ function App() {
 
       <ul>
         {items.map(item => {
-          return <ItemBox key={item.Id} item={item}/> 
+          if(item.constructor.name === "Ammo")
+            return <AmmoResult key={item.Id} item={item}/> 
+          else 
+            return <QuestResult key={item.Id} item={item}/>
         })}
       </ul>
     </div>

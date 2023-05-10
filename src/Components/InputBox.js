@@ -2,7 +2,6 @@ import { getAmmoByName } from "../Http/AmmoRequests";
 import { getQuestsByName } from "../Http/QuestRequests";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './ItemBox.css'
 import React, {useState} from 'react';
 
 export const InputBox = (props) => {
@@ -29,6 +28,7 @@ export const InputBox = (props) => {
 
     const _onSelectChange = (event) => {
       setSearchType(event.target.value);
+      props.setItems([]);
     }
   
     return (
