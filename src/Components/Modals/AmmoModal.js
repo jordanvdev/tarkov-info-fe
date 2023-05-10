@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom";
 import './AmmoModal.css'
+import './Modals.css';
 
 export const AmmoInfoModal = (props) => {
     if(!props.isOpen){

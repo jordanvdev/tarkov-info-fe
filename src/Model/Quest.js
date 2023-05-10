@@ -13,5 +13,6 @@ export class Quest{
         this.Wiki = wiki;
         this.ExperienceReward = experienceReward;
         this.ReputationReward = reputationReward;
+        this.Trader = trader;
     }
   }

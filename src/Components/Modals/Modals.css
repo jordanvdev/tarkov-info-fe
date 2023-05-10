@@ -1,0 +1,28 @@
+.closeButton{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2997/2997911.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 20px;
+    background-color: #3700b3;
+    background-blend-mode: multiply;
+    position:absolute; 
+    border: none;
+    height: 20px;
+    width: 20px;
+    top:10px; 
+    right:10px;
+}
+
+.closeButton span{
+    display: none;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+hr{
+    padding: 0px;
+    margin: 0px;    
+}
