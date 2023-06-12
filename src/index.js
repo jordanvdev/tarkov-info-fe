@@ -4,10 +4,27 @@ import './index.css';
 import App from './App';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { QuestPage } from './Components/Routes/QuestPage';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+  },
+  {
+    path: "quests",
+    element: <QuestPage/>
+  }
+]);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

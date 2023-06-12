@@ -8,11 +8,14 @@ function App() {
 
   const [items,setItems] = useState([]);
   const [query,setQuery] = useState("");
+  const [questsTreeOpen,setQuestsTreeOpen] = useState(false);
 
   return (
     <div className="App">
     
       <h1>Tarkov Info</h1>
+
+      <a href={`/quests/`}>Your Name</a>
 
       <InputBox query={query} updateQuery={setQuery} setItems={setItems}/>
 
